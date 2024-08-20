@@ -31,7 +31,14 @@
                 <span style="color: blue;">→</span>
                 <span>HireUP</span>
             </div>
-            <ul class="nav-links">
+            <div class="menu-toggle" id="menuToggle">
+                
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <button id="closeToggle" class="close-btn">&times;</button>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Company</a></li>
                 <li><a href="#">Browse</a></li>
@@ -48,12 +55,17 @@
                         <span class="new-label">NEW</span>
                         <span class="new-label-text">Stay connected to get upcoming jobs</span>
                     </div>
-                    
+                    <div class="new-container">
+                        <div class="new-container-h2">
                        <h2>Find The Most
                         <br>exciting job in search
                     </h2>
+                </div>
+                <div class="new-container-p">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi 
                         <br>rhoncus, pharetra leo et.<a href="" style="text-decoration: none; color: blue;"> Sign in</a> or<a href="" style="text-decoration: none; color: blue;"> Sign up</a> to get started!</br></p>    
+                    </div>
+                </div>
             </section>
             <!--Image-banner-->
             <section id="banner" >
@@ -215,7 +227,7 @@
                 <div class="job-info">
                     <div class="job-location">
                         <i class="fa fa-map-marker"></i> California
-                    <div class="job-salary">
+                    <div class="job-salary-1">
                         <i class="fa fa-money"></i> $40k-50k
                     </div>
                 </div>
@@ -329,7 +341,7 @@
                             <img src="./images/testimonial.svg" style="width: 50px; height: 50px;">
                         </div>
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laudantium assumenda dolorum itaque architecto non nihil nesciunt nemo rerum? Impedit similique perferendis eveniet in. Harum alias eaque error cum repudiandae.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laudantium assumenda do nemo rerum? I in. Harum alias eaque error cum repudiandae.</p>
                         </div>
                         <div class="sub-description">
                             <p><span style="color: royalblue;">John Doe</span> - Full Stack Developer</p>
@@ -354,10 +366,10 @@
                         <span>Get the latest news about jobs!</span>
                         
                         </p>
-                        <div class="blog-button">
+                        <!-- <div class="blog-button">
                             <button class="next-button" onclick="('prev')" style="font-size: 30px; margin-top: -20px;">⬅</button>
                             <button class="next-button" onclick="('next')" style="font-size: 30px;">➡</button>
-                        </div>
+                        </div> -->
                 </div>
                 <div class="blog-slider">
                     <div class="slider-container-blog">

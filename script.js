@@ -58,3 +58,23 @@ document.addEventListener('DOMContentLoaded', function() {
         banner.style.display = 'none';
     });
 });
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+const closeToggle = document.getElementById('closeToggle');
+
+// Toggle menu on clicking the hamburger icon
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.add('active');
+});
+
+// Close the menu using the close button
+closeToggle.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+});
+
+// Close the menu when clicking outside the nav or hamburger
+document.addEventListener('click', (e) => {
+    if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+        navLinks.classList.remove('active');
+    }
+});
