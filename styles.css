@@ -4,7 +4,7 @@ body {
     width: 100%;
     background-color: #f4f4f4; /* Light background color for better contrast */
     color: #333; /* Dark text color for readability */
-    overflow-x: hidden; /* Prevent horizontal scroll */
+/*     overflow-x: hidden;  */
 }
 
 
